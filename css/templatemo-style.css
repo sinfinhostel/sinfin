@@ -7,14 +7,14 @@ http://www.templatemo.com/tm-498-stimulus
 */
 
 body {
-	background: #858585;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-	font-weight: 300;
-    overflow-x: hidden;
+  background: #858585;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  overflow-x: hidden;
 }
 
-html,body {
+html, body {
   width: 100%;
   height: 100%;
 }
@@ -24,12 +24,12 @@ html,body {
     Typography              
 -----------------------------------------*/
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 300;
 }
 
-h1,h2,h3 {
+h1, h2, h3 {
   font-weight: 300;
 }
 
@@ -42,7 +42,7 @@ h1 {
 h2 {
   font-size: 42px;
   line-height: 52px;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -70,11 +70,11 @@ strong {
 }
 
 p {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-    letter-spacing: 0.2px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.2px;
 }
 
 .section-btn {
@@ -121,7 +121,7 @@ p {
 }
 
 #home .container,
-#about .container, 
+#about .container,
 #experience .container,
 #service .container,
 #education .container,
@@ -132,8 +132,8 @@ p {
 }
 
 #experience .experience-thumb,
-#education .education-thumb  {
-  padding: 22px 42px 42px 42px;
+#education .education-thumb {
+  padding: 32px 42px 42px 42px;
 }
 
 #service,
@@ -148,16 +148,16 @@ footer {
 }
 
 .background-image {
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    width: 100%;
-    height: 100%;
-    min-height: 75vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 75vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .color-white {
@@ -186,19 +186,20 @@ footer {
     General               
 -----------------------------------------*/
 
-html{
+html {
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: #413547;
+  color: #ffffff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
+
 a:hover, a:active, a:focus {
-  color: #413547;
+  color: #858585;
   outline: none;
 }
 
@@ -258,11 +259,15 @@ a:hover, a:active, a:focus {
 }
 
 @-webkit-@keyframes spinner {
-  to {transform: rotate(360deg);}
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes spinner {
-  to {transform: rotate(360deg);}
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 
@@ -272,68 +277,69 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .custom-navbar {
-    margin-bottom: 0;
-    background-color: #ffffff;
+  margin-bottom: 0;
+  background-color: #ffffff;
 }
 
 .custom-navbar .navbar-brand {
-    color: #413547;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 35px;
-    letter-spacing: 1px;
+  color: #413547;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 1px;
 }
 
 .custom-navbar .nav li a {
-    color: #413547;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    line-height: 40px;
-    transition: all 0.4s ease-in-out;
+  color: #413547;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 40px;
+  transition: all 0.4s ease-in-out;
 }
 
 .custom-navbar .nav li a:hover {
-    background: transparent;
-    color: #858585;
+  background: transparent;
+  color: #858585;
 }
 
-.custom-navbar .navbar-nav > li > a:hover,
-.custom-navbar .navbar-nav > li > a:focus {
+.custom-navbar .navbar-nav>li>a:hover,
+.custom-navbar .navbar-nav>li>a:focus {
   background-color: transparent;
 }
 
-.custom-navbar .nav li.active > a {
-    background-color: transparent;
-    color: #413547;
+.custom-navbar .nav li.active>a {
+  background-color: transparent;
+  color: #413547;
 }
 
 .custom-navbar .navbar-toggle {
-    border: none;
-    padding-top: 10px;
+  border: none;
+  padding-top: 10px;
 }
 
 .custom-navbar .navbar-toggle {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #413547;
-    border-color: transparent;
+  background: #413547;
+  border-color: transparent;
 }
 
 @media(min-width:768px) {
-    .custom-navbar {
-        padding: 12px 0;
-        border-bottom: 0;
-        background: 0 0; 
-    }
-    .custom-navbar.top-nav-collapse {
-        background: #ffffff;
-        box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-        padding: 0;
-    }
+  .custom-navbar {
+    padding: 12px 0;
+    border-bottom: 0;
+    background: 0 0;
+  }
+
+  .custom-navbar.top-nav-collapse {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+    padding: 0;
+  }
 
 }
 
@@ -349,18 +355,18 @@ a:hover, a:active, a:focus {
 
 #home .col-md-6 {
   background: #3f8a80;
-/* light blue color: #c3eafd; */
+  /* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
 }
 
 #home .home-img {
-  background: url('../images/Marca-SINFIN.jpg') no-repeat;
-  background-size: contain;
+  background: url('../images/Frente\ Hostel\ II.jpg') no-repeat;
+  background-size: cover;
   background-position: 50% 50%;
   width: 100%;
   height: 100vh;
-  
+
 }
 
 #home .home-thumb {
@@ -383,7 +389,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('../images/sinfin.png') no-repeat;
+  background: url('../images/sinfin.png') no-repeat;
 }
 
 #about .about-thumb,
@@ -448,8 +454,9 @@ a:hover, a:active, a:focus {
 }
 
 #experience .media .fa {
-  font-size: 42px;
-  margin-right: 14px;
+  font-size: 10px;
+  margin-right: 8px;
+
 }
 
 #experience small {
@@ -490,21 +497,21 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #quotes {
-    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    position: relative;
-    padding: 100px 0px;
+  background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  position: relative;
+  padding: 100px 0px;
 }
 
 #quotes .overlay {
-    background: #121212;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    opacity: 0.7;
+  background: #121212;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
 }
 
 #quotes .fa {
@@ -534,17 +541,28 @@ a:hover, a:active, a:focus {
 
 #contact .contact-img {
   background: url('../images/contact-img.jpg') no-repeat;
-  min-height: 75vh;
+  min-height: 100vh;
 }
 
 #contact .contact-info {
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 700px;
+  height: 90px;
 }
 
-#contact .form-control::-moz-placeholder{color:#ffffff;opacity:1}
-#contact .form-control:-ms-input-placeholder{color:#ffffff}
-#contact .form-control::-webkit-input-placeholder{color:#ffffff}
+#contact .form-control::-moz-placeholder {
+  color: #ffffff;
+  opacity: 1
+}
+
+#contact .form-control:-ms-input-placeholder {
+  color: #ffffff
+}
+
+#contact .form-control::-webkit-input-placeholder {
+  color: #ffffff
+}
 
 #contact .form-control {
   background: transparent;
@@ -592,7 +610,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 
@@ -602,39 +620,39 @@ footer {
 -----------------------------------------*/
 
 .social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 .social-icon li {
-    display: inline-block;
-    list-style: none;
+  display: inline-block;
+  list-style: none;
 }
 
 .social-icon li a {
-    border: 2px solid transparent;
-    color: #ffffff;
-    border-radius: 100px;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    margin: 22px 4px 10px 4px;
+  border: 2px solid transparent;
+  color: #ffffff;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 22px 4px 10px 4px;
 }
 
 .social-icon li a:hover {
-    background: #111111;
-    border-color: #ffffff;
-    color: #ffffff;
-    transform: scale(1.1);
+  background: #111111;
+  border-color: #ffffff;
+  color: #ffffff;
+  transform: scale(1.1);
 }
 
 
@@ -643,7 +661,8 @@ footer {
    Mobile Responsive         
 -----------------------------------------*/
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 320px) {
+
   h1 {
     font-size: 32px;
   }
@@ -657,54 +676,91 @@ footer {
     font-size: 22px;
     line-height: inherit;
   }
-}
-
-@media only screen and (max-width: 767px) {
-  .custom-navbar .navbar-brand {
-    line-height: 18px;
-  }
-
-  #home .home-thumb {
-    height: auto;
-    padding-top: 32px;
-    padding-bottom: 12px;
-  }
 
   #home .container,
-  #about .container, 
+  #about .container,
   #experience .container,
   #service .container,
   #education .container,
   #contact .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
-  #about .col-md-3,
-  #experience .col-md-6,
-  #education .col-md-6,
-  #contact .col-md-3 {
+    width: 100%;
     padding: 0;
     margin: 0;
   }
 
-  .background-image {
-    position: relative;
-    min-height: 65vh;
+  .home-img {
+    background-position:50% 50%; 
+    width: 245%;
+    height: 100vh;
   }
+
 }
 
-@media only screen and (max-width: 1024px) {
-  .section-title {
-    padding-bottom: 12px;
-  }
+@media only screen and (max-width: 320px) {
+ 
 
-  footer {
-    padding: 40px 0;
-  }
 }
 
-#parrafo-about{
+#parrafo-about {
   color: #ffffff;
+  margin-top: 30px;
 }
 
+
+
+.pic-ctn {
+  width: 100vw;
+  height: 200px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+
+#bienvenidos {
+  font-size: x-large;
+}
+
+
+
+#imagenCarousel {
+  width: 500px;
+  height: 500px;
+
+}
+
+#acercaDe {
+  background-size: cover;
+}
+
+#imagenServicios {
+  width: 690px;
+  height: 662px;
+}
+
+
+/*------- Media queries -------*/
