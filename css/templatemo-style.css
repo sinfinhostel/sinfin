@@ -789,4 +789,13 @@ footer {
   margin-top: 30px;
 }
 
+.logoInicio{
+  width: 500px;
+  height: 400px;
+}
+
+.logoMenu{
+  height: 50px;
+  width: 100px;
+}
 /*------- Media queries -------*/
