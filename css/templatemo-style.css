@@ -712,6 +712,10 @@ footer {
   #boton-wsp {
     width: 200px;
   }
+
+  .logoMenu {
+    margin-top: -14px;
+  }
 }
 
 @media only screen and (max-width: 320px) {}
@@ -797,5 +801,6 @@ footer {
 .logoMenu{
   height: 50px;
   width: 100px;
+  margin-top: -4px;
 }
 /*------- Media queries -------*/
